@@ -1,5 +1,5 @@
 ##read the dataset
-x <- read.csv("C:/Users/Pooja Naik/pollution.csv")
+x <- read.csv("D:/pollution.csv")
 
 #Subset into each state and year
 karnataka <- subset(x,x$State =="Karnataka")
